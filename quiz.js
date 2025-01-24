@@ -1,4 +1,4 @@
-var feedback = document.querySelector("#feedback");
+var feedback = document.getElementById("feedback");
 var buttonSubmit = document.querySelector("#submit-answer");
 
 function checkAnswer() {
