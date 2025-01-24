@@ -12,11 +12,11 @@ function checkAnswer() {
     }
 }
 
-function CorrectAnswer(answer) {
+function CorrectAnswer(userAnswer) {
     const correctAnswer = "4"; // Define the correct answer
 
     // Compare user answer with the correct answer
-    if (answer === correctAnswer) {
+    if (userAnswer === correctAnswer) {
         feedback.innerHTML = "Correct! Well done.";
     } else {
         feedback.innerHTML = "That's incorrect. Try again!";
